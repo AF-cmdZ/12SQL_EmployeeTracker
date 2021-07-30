@@ -4,9 +4,8 @@ module.exports = {
     name: "task",
     message: "What would you like to do?",
     choices: [
-      /* ------ VIEW -------- */
       /* THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role */
-
+      /* ------ VIEW -------- */
       "View Employees", // viewEmployee();
       "View Departments", // viewDepartments();
       "View Roles", // viewRoles();
@@ -24,4 +23,5 @@ module.exports = {
       "Exit",
     ],
   },
+  /* ----- Prompt --*/
 };
