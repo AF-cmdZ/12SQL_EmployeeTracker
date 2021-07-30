@@ -1,5 +1,9 @@
 const inquirer = require("inquirer");
-const table = require("console.table");
+const cTable = require("console.table");
+import connection from "./config/connection";
+require("console.table");
+
+console.log(connection);
 
 console.log(inquirer);
-console.log(table);
+console.log(cTable);
