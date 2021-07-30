@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   initialPrompt: {
     type: "list",
     name: "task",
