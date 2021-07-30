@@ -5,19 +5,17 @@ module.exports = {
     message: "What would you like to do?",
     choices: [
       /* ------ VIEW -------- */
+      /* THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role */
+
       "View Employees", // viewEmployee();
-      "View Employees by Manager", // viewEmployeeByManager();
-      "View Employees by Department", // viewEmployeeByDepartment();
       "View Departments", // viewDepartments();
       "View Roles", // viewRoles();
-      "View Department Budget", // viewDepartmentBudget();
       /* -------- ADD -------- */
       "Add Employee", // addEmployee();
       "Add Department", // addDepartment();
       "Add Role", // addRole();
       /* ------- UPDATE -------- */
       "Update Employee Role", // updateEmployeeRole();
-      "Update Employee Manager", // updateEmployeeManager();
       /* -------- REMOVE --------- */
       "Remove Employee", // removeEmployees();
       "Remove Department", // removeDepartment();
